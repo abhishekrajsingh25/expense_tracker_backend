@@ -191,7 +191,7 @@ Steps to contribute:
 
 > Frontend Demo: Click <a href="https://expense-tracker-abhishekrajsingh.vercel.app" >Here</a>
 
-> Frontend Code: Click <a href="https://github.com/abhishekrajsingh25/Expense-Tracker" >Here</a>
+> Frontend Code: Click <a href="https://github.com/abhishekrajsingh25/Expense-Tracker">Here</a>
 
 ---
 
