@@ -70,7 +70,7 @@ A full-stack Expense Tracker web application built using **React**, **Spring Boo
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/expense-tracker-app.git
+git clone https://github.com/abhishekrajsingh25/Expense-Tracker.git
 cd expense-tracker-app
 ```
 
