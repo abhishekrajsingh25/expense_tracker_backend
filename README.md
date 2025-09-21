@@ -101,6 +101,8 @@ spring.jpa.hibernate.ddl-auto = update
 spring.jpa.show-sql = true
 spring.jpa.properties.hibernate.format_sql = true
 
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
 # Email SMTP
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
@@ -114,6 +116,11 @@ spring.mail.properties.mail.smtp.from = ${BREVO_FROM_EMAIL}
 app.activation.url=${EXPENSE_TRACKER_BACKEND_URL}
 
 spring.profiles.active=prod
+
+spring.datasource.url = ${POSTGRESQL_URL}
+spring.datasource.username = ${POSTGRESQL_USERNAME}
+spring.datasource.password = ${POSTGRESQL_PASSWORD}
+spring.datasource.driver-class-name=org.postgresql.Driver
 ```
 
 Run the backend server:
